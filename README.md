@@ -1,33 +1,17 @@
 # 🔢 EasyEDA – 7 Segment Gösterge Kartı
 
 Bu proje, **EasyEDA** ile tasarlanmış **tek basamaklı (ortak katot) 7-segment LED gösterge** kartının tamamlanmış dosyalarını içerir.  
-Amaç; düşük maliyetli, doğrudan **Arduino UNO**’ya takılabilen ve üretime hazır bir gösterge kartı geliştirmektir.
+Amaç; düşük maliyetli, doğrudan devre kartlarına takılabilen ve üretime hazır bir gösterge kartı geliştirmektir.
 
----
 
-## 📂 Proje İçeriği
-
-| Dosya / Klasör              | Açıklama                                   |
-|-----------------------------|--------------------------------------------|
-| [`schematic.pdf`](./schematic.pdf)      | Şematik diyagram (PDF)                  |
-| [`PCB_Layout_Top.png`](./PCB_Layout_Top.png) | PCB’nin üst katman görünümü (PNG)       |
-| [`PCB_3D_View.png`](./PCB_3D_View.png)  | 3-boyutlu PCB önizlemesi                |
-| [`BOM.csv`](./BOM.csv)                  | Malzeme listesi (Bill of Materials)     |
-| [`gerber/`](./gerber/)                  | Üretime hazır Gerber dosyaları          |
-| `README.md`                             | Bu açıklama dosyası                     |
-
-> **Not** – Tüm dosyalar bu `README` ile aynı klasörde durmalıdır;  
-> aksi hâlde görsel ve linkler çalışmaz.
-
----
 
 ## 🖼️ Hızlı Görsel Bakış
 
-![Şematik](./schematic.pdf)
-![PCB Üst Katman](./PCB_Layout_Top.png)
-![3D Önizleme](./PCB_3D_View.png)
+![Şematik](![schematic](https://github.com/user-attachments/assets/fd98cf77-b70e-416f-b628-66b0625b5a40))
+![PCB Üst Katman](![upper layer](https://github.com/user-attachments/assets/6e261f70-6fd1-4288-b36f-f94722984562))
+![3D Önizleme](![3D_View](https://github.com/user-attachments/assets/84e45d04-0937-4e5c-bc40-69abcebdae37))
 
----
+
 
 ## 📦 Temel BOM Özeti
 
@@ -37,8 +21,6 @@ Amaç; düşük maliyetli, doğrudan **Arduino UNO**’ya takılabilen ve üreti
 | 2 | Direnç                      | 330 Ω                  | 7      |
 | 3 | Erkek Header (Arduino)      | 2 × 6 + 1 × 8          | 2      |
 | 4 | Baskı Devre (PCB)           | 2 kat, 70 mm × 35 mm   | 1      |
-
-*Tüm ayrıntılar için lütfen `BOM.csv` dosyasını inceleyin.*
 
 ---
 
@@ -67,4 +49,9 @@ Kaynak belirtmeniz yeterlidir.
 
 ---
 
-> **Tarih:** 2025  **Hazırlayan:** Furkan Çurka
+> **Tarih:** 2025  **Hazırlayan:** Furkan Fırat Çurka
+
+SERTİFİKALAR
+-- PROTEUS İLE DEVRE TASARIMI = [Proteus_ile_Devre_Tasarımı_Sertifika.pdf](https://github.com/user-attachments/files/20956405/Proteus_ile_Devre_Tasarimi_Sertifika.pdf)
+
+-- TEMEL ELEKTRONİK VE ROBOTİĞE GİRİŞ = [Temel_Elektronik_ve_Robotiğe_Giriş_Sertifika.pdf](https://github.com/user-attachments/files/20956407/Temel_Elektronik_ve_Robotige_Giris_Sertifika.pdf)
